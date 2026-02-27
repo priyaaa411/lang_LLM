@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Functions Example</title>
+</head>
+<body>
+
+    <h2>JavaScript Functions in HTML</h2>
+
+    <button onclick="showMessage()">Click Me</button>
+    <button onclick="calculateSum()">Add Numbers</button>
+
+    <p id="output"></p>
+
+    <script>
+        // Function 1: Show a message
+        function showMessage() {
+            document.getElementById("output").innerHTML = "Hello Priya! 😊";
+        }
+
+        // Function 2: Calculate sum of two numbers
+        function calculateSum() {
+            let num1 = 10;
+            let num2 = 20;
+            let sum = num1 + num2;
+
+            document.getElementById("output").innerHTML = "Sum is: " + sum;
+        }
+    </script>
+
+</body>
+</html>
